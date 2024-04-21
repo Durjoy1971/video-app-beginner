@@ -4,7 +4,7 @@ function HeaderPart() {
   return (
     <View style={styles.container}>
       <Text style={styles.WelcomeText}> Welcome </Text>
-      <Text style={styles.WelcomeText}> Durjoy Barua </Text>
+      <Text style={styles.WelcomeText}> Durjoy Barua. </Text>
       <Image
         style={styles.userImage}
         source={require("./../../assets/Profile.jpg")}

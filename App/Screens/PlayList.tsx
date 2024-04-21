@@ -1,10 +1,12 @@
 import { View, Text } from "react-native";
 import TopCourse from "../Components/TopCourse";
+import RoutingPart from "../NavigationPart/RoutingPart";
 
-function PlayList() {
+function PlayList({ navigation }: { navigation: any }) {
   return (
-    <View>
+    <View style={{ backgroundColor: "#ff9966", flex: 1 }}>
       <TopCourse />
+      <RoutingPart navigation={navigation} />
     </View>
   );
 }
